@@ -1,32 +1,62 @@
-[
-  { "id": 1, "name": "Yohanês Zanghelini", "email": "yohanes.zanghelini@gmail.com" },
-  { "id": 2, "name": "Lucas Pereira", "email": "lucas.pereira@gmail.com" },
-  { "id": 3, "name": "Mariana Silva", "email": "mariana.silva@gmail.com" },
-  { "id": 4, "name": "Rafael Costa", "email": "rafael.costa@gmail.com" },
-  { "id": 5, "name": "Ana Beatriz Lima", "email": "ana.lima@gmail.com" },
-  { "id": 6, "name": "Pedro Henrique", "email": "pedro.henrique@gmail.com" },
-  { "id": 7, "name": "Camila Rocha", "email": "camila.rocha@gmail.com" },
-  { "id": 8, "name": "Bruno Almeida", "email": "bruno.almeida@gmail.com" },
-  { "id": 9, "name": "Fernanda Souza", "email": "fernanda.souza@gmail.com" },
-  { "id": 10, "name": "Diego Martins", "email": "diego.martins@gmail.com" },
-  { "id": 11, "name": "Juliana Ribeiro", "email": "juliana.ribeiro@gmail.com" },
-  { "id": 12, "name": "Carlos Eduardo", "email": "carlos.eduardo@gmail.com" },
-  { "id": 13, "name": "Paula Nogueira", "email": "paula.nogueira@gmail.com" },
-  { "id": 14, "name": "André Oliveira", "email": "andre.oliveira@gmail.com" },
-  { "id": 15, "name": "Bianca Teixeira", "email": "bianca.teixeira@gmail.com" },
-  { "id": 16, "name": "Felipe Araujo", "email": "felipe.araujo@gmail.com" },
-  { "id": 17, "name": "Larissa Pacheco", "email": "larissa.pacheco@gmail.com" },
-  { "id": 18, "name": "Thiago Barros", "email": "thiago.barros@gmail.com" },
-  { "id": 19, "name": "Natália Farias", "email": "natalia.farias@gmail.com" },
-  { "id": 20, "name": "Gustavo Moreira", "email": "gustavo.moreira@gmail.com" },
-  { "id": 21, "name": "Renata Lopes", "email": "renata.lopes@gmail.com" },
-  { "id": 22, "name": "Victor Freitas", "email": "victor.freitas@gmail.com" },
-  { "id": 23, "name": "Aline Mendes", "email": "aline.mendes@gmail.com" },
-  { "id": 24, "name": "Matheus Guedes", "email": "matheus.guedes@gmail.com" },
-  { "id": 25, "name": "Patrícia Rangel", "email": "patricia.rangel@gmail.com" },
-  { "id": 26, "name": "João Vitor", "email": "joao.vitor@gmail.com" },
-  { "id": 27, "name": "Letícia Cunha", "email": "leticia.cunha@gmail.com" },
-  { "id": 28, "name": "Rodrigo Bastos", "email": "rodrigo.bastos@gmail.com" },
-  { "id": 29, "name": "Isabela Moraes", "email": "isabela.moraes@gmail.com" },
-  { "id": 30, "name": "Eduardo Pinheiro", "email": "eduardo.pinheiro@gmail.com" }
-]
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Yohanês Zanghelini",
+      "email": "yohanes.zanghelini@gmail.com"
+    },
+    { "id": 2, "name": "Lucas Pereira", "email": "lucas.pereira@gmail.com" },
+    { "id": 3, "name": "Mariana Silva", "email": "mariana.silva@gmail.com" },
+    { "id": 4, "name": "Rafael Costa", "email": "rafael.costa@gmail.com" },
+    { "id": 5, "name": "Ana Beatriz Lima", "email": "ana.lima@gmail.com" },
+    { "id": 6, "name": "Pedro Henrique", "email": "pedro.henrique@gmail.com" },
+    { "id": 7, "name": "Camila Rocha", "email": "camila.rocha@gmail.com" },
+    { "id": 8, "name": "Bruno Almeida", "email": "bruno.almeida@gmail.com" },
+    { "id": 9, "name": "Fernanda Souza", "email": "fernanda.souza@gmail.com" },
+    { "id": 10, "name": "Diego Martins", "email": "diego.martins@gmail.com" },
+    {
+      "id": 11,
+      "name": "Juliana Ribeiro",
+      "email": "juliana.ribeiro@gmail.com"
+    },
+    { "id": 12, "name": "Carlos Eduardo", "email": "carlos.eduardo@gmail.com" },
+    { "id": 13, "name": "Paula Nogueira", "email": "paula.nogueira@gmail.com" },
+    { "id": 14, "name": "André Oliveira", "email": "andre.oliveira@gmail.com" },
+    {
+      "id": 15,
+      "name": "Bianca Teixeira",
+      "email": "bianca.teixeira@gmail.com"
+    },
+    { "id": 16, "name": "Felipe Araujo", "email": "felipe.araujo@gmail.com" },
+    {
+      "id": 17,
+      "name": "Larissa Pacheco",
+      "email": "larissa.pacheco@gmail.com"
+    },
+    { "id": 18, "name": "Thiago Barros", "email": "thiago.barros@gmail.com" },
+    { "id": 19, "name": "Natália Farias", "email": "natalia.farias@gmail.com" },
+    {
+      "id": 20,
+      "name": "Gustavo Moreira",
+      "email": "gustavo.moreira@gmail.com"
+    },
+    { "id": 21, "name": "Renata Lopes", "email": "renata.lopes@gmail.com" },
+    { "id": 22, "name": "Victor Freitas", "email": "victor.freitas@gmail.com" },
+    { "id": 23, "name": "Aline Mendes", "email": "aline.mendes@gmail.com" },
+    { "id": 24, "name": "Matheus Guedes", "email": "matheus.guedes@gmail.com" },
+    {
+      "id": 25,
+      "name": "Patrícia Rangel",
+      "email": "patricia.rangel@gmail.com"
+    },
+    { "id": 26, "name": "João Vitor", "email": "joao.vitor@gmail.com" },
+    { "id": 27, "name": "Letícia Cunha", "email": "leticia.cunha@gmail.com" },
+    { "id": 28, "name": "Rodrigo Bastos", "email": "rodrigo.bastos@gmail.com" },
+    { "id": 29, "name": "Isabela Moraes", "email": "isabela.moraes@gmail.com" },
+    {
+      "id": 30,
+      "name": "Eduardo Pinheiro",
+      "email": "eduardo.pinheiro@gmail.com"
+    }
+  ]
+}
