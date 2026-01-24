@@ -10,6 +10,6 @@ router.get("/", (req, res) => {
 router.get("/teste", (req,res) => res.send("teste"));
 
 router.get("/getUsuarios", listUsers);
-router.get("/getUsuario", getUsersByName); 
+router.get("/getUsuario", getUsersByName);
 
 export default router;

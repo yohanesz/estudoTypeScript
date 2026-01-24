@@ -5,11 +5,12 @@ export async function getAllUsers() {
 }
 
 export async function getUsers(name) {
-    const response = await getAllUsers();
-    const users = await response.filter(u => {
-        return u.name.includes(name);
-    });
-    return users.json();
+    const users = await getAllUsers();
+
+    return users.filter(user =>
+        user.name.toLowerCase().includes(name.toLowerCase())
+    );
 }
+
 
 

@@ -15,7 +15,7 @@ export async function getUsersByName(req, res) {
     const data = await getUsers(name);
     res.json(data);
   } catch (error) {
-    res.status(500).json({ message: 'Erro ao buscar usuário' });
+    res.status(500).json({ message: 'Erro ao buscar usuário específico' });
   }
 }
 
