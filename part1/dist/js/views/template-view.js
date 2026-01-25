@@ -1,13 +1,15 @@
-import { Negociacoes } from "../models/negociacoes.js";
-import { View } from "./view.js";
-export class NegociacoesView extends View {
-    constructor() {
-        super(...arguments);
-        this.negociacoes = new Negociacoes();
+export class templateView {
+    constructor(elemento) {
+        this.elemento = document.querySelector(elemento);
     }
-    template(model) {
+    templateMsg(model, tipoMensagem) {
         return `
-        <table class="table table-hover table-bordered">
+        <p class="alert alert-${tipoMensagem}">${model}</p>
+        `;
+    }
+    templateNegociacao(model) {
+        return `
+             <table class="table table-hover table-bordered">
             <thead>
                 <tr>
                     <th>DATA</th>
@@ -28,5 +30,9 @@ export class NegociacoesView extends View {
             </tbody>
         </table>
         `;
+    }
+    updateMsg() {
+    }
+    updateNegociacao() {
     }
 }

@@ -1,27 +1,13 @@
-export type tipoMensagem = 'danger' | 'warning' | 'success';
+import { View } from "./view.js";
 
-export class MensagemView {
+export class MensagemView extends View<string>{
 
-    private element: HTMLElement;
-
-    
-
-    constructor(seletor: string) {
-        this.element = document.querySelector(seletor);
-    }
-
-    template(model: string, tipoMensagem: tipoMensagem): string {
+    template(model: string): string {
         return `
-        <p class="alert alert-${tipoMensagem}">${model}</p>
+        <p class="alert alert-success">${model}</p>
         `;
     }
 
-    update(model: string, tipoMensagem: tipoMensagem): void {
-        this.element.innerHTML = this.template(model, tipoMensagem);
-
-        setTimeout(() => {
-            this.element.innerHTML = '';
-        }, 3000);
-    }
+ 
 
 }
